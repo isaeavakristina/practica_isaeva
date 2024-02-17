@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PRACTICA"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="PFS" Height="700" Width="1024" Background="#fbe1b6" Icon="Новая папка/Frame 1.png">
+    <Canvas>
+        <Image Source="/Новая папка/Frame 1.png" Height="155" Width="155" >
+            <Image.Effect>
+                <DropShadowEffect BlurRadius="15" ShadowDepth="0" Color="#FFD2AD70"/>
+            </Image.Effect>
+        </Image>
 
-    </Grid>
+
+
+    </Canvas>
 </Window>
